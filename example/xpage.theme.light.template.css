@@ -1,0 +1,31 @@
+.x-btn {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 3px 15px 3px 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.x-btn:hover {
+    background-color: #4f82de;
+}
+
+.x-btn:focus {
+    background-color: #4970b7;
+}
+
+.x-btn:active {
+    background-color: #2457af;
+}
+
+.x-input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.x-text {
+    padding: 5px;
+    margin: 5px;
+}
