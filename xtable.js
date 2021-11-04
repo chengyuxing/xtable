@@ -84,7 +84,7 @@
             this.container.innerHTML = `<div class="table-responsive">
                         <table style="${this.setting.style.table.css}" class="${this.setting.style.table.class}">
                             <thead class="bg-light text-center">
-                            <tr data-id="query-row" style="display: none;" ${this.setting.enableQuery ? '' : 'style="display: none"'}>
+                            <tr data-id="query-row" style="display: none;">
                                 <th data-id="header-query">
                                     <div class="input-group input-group-sm">
                                       <input data-id="input-keyword" type="text" class="form-control" value="" placeholder="请输入关键字进行检索...">
