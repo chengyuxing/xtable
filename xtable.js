@@ -405,7 +405,8 @@
                 if (keyword === '') {
                     return true;
                 }
-                for (const item of items) {
+                // first column is index, so excluded
+                for (const item of items.slice(1)) {
                     const str = item + '';
                     if (str !== '' && (str.includes(keyword) || keyword.includes(str))) {
                         return true;
